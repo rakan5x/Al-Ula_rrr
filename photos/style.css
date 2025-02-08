@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Almadinah';
+    src: url('fonts/Almadinah-Light.woff2') format('woff2'),
+         url('fonts/Almadinah-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Almadinah', Arial, sans-serif;
+    font-size: 30px;
+    direction: rtl;
+    background-color: #f4e1c1;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url('patterns/traditional-pattern.png');
+    background-repeat: repeat;
+}
+
+header {
+    background-color: #8b5a2b;
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+    border-bottom: 5px solid #5a3c1a;
+    background-image: url('patterns/header-pattern.png');
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    background-image: url('patterns/nav-pattern.png');
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #8b5a2b;
+    font-weight: bold;
+    background-image: url('patterns/link-pattern.png');
+    padding: 5px;
+    border-radius: 5px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff7e6;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border: 10px solid #8b5a2b;
+    background-image: url('patterns/main-pattern.png');
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 15px;
+    border: 5px solid #8b5a2b;
+}
+
+.references {
+    text-align: right;
+    padding-right: 20px;
+    background-image: url('patterns/references-pattern.png');
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.references li {
+    margin: 5px 0;
+}
+
+.references a {
+    color: #8b5a2b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.references a:hover {
+    text-decoration: underline;
+}
